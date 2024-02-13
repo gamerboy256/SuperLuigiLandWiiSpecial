@@ -111,7 +111,7 @@ void LoadPregameStyleNameAndNumber(m2d::EmbedLayout_c *layout) {
 			wcscpy(levelNumber, L"Especial ");
 			getNewerLevelNumberString(level->displayWorld, level->displayLevel, &levelNumber[6]);
 		}
-		if(GetGameLanguage(4) == 5) { // Italian
+		if(GetGameLanguage(4) == 5) { // Italian (by CoinKillerL)
 			wcscpy(levelNumber, L"Speciale ");
 			getNewerLevelNumberString(level->displayWorld, level->displayLevel, &levelNumber[6]);
 		}
