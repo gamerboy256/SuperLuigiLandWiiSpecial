@@ -42,9 +42,3 @@ hooks:
     src_addr_pal: 0x8077C20C
     branch_type: b
     target_func: 'TimeUpTextChange'
-
-  - name: TowerEventTrigger
-    type: branch_insn
-    src_addr_pal:  [0x80B52AC0, 0x80B61850, 0x80B69FF0, 0x80B655C0, 0x80B57E10, 0x80B5CFF0, 0x80B37270] #Larry, Morton, Wendy, Roy, Lemmy & Ludwig, Iggy
-    branch_type: b
-    target_func: 'TowerBosses::DemoFallEd()'
