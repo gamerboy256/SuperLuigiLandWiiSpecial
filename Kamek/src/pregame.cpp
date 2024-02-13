@@ -91,8 +91,8 @@ void LoadPregameStyleNameAndNumber(m2d::EmbedLayout_c *layout) {
 		LevelName->SetString(convLevelName);
 
 		wchar_t levelNumber[32];
-		if(GetGameLanguage(4) == 0) { // Japanese (by ?) (NEEDS REPLACING)
-			wcscpy(levelNumber, L"ワールド ");
+		if(GetGameLanguage(4) == 0) { // Japanese
+			wcscpy(levelNumber, L"スペシャル ");
 			getNewerLevelNumberString(level->displayWorld, level->displayLevel, &levelNumber[5]);
 		}
 		if(GetGameLanguage(4) == 1) { // English
