@@ -103,8 +103,8 @@ void LoadPregameStyleNameAndNumber(m2d::EmbedLayout_c *layout) {
 			wcscpy(levelNumber, L"Spezial ");
 			getNewerLevelNumberString(level->displayWorld, level->displayLevel, &levelNumber[5]);
 		}
-		if(GetGameLanguage(4) == 3) { // French (NEEDS REPLACING)
-			wcscpy(levelNumber, L"Monde ");
+		if(GetGameLanguage(4) == 3) { // French
+			wcscpy(levelNumber, L"Spécial ");
 			getNewerLevelNumberString(level->displayWorld, level->displayLevel, &levelNumber[6]);
 		}
 		if(GetGameLanguage(4) == 4) { // Spanish (NEEDS REPLACING)
