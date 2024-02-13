@@ -1,4 +1,13 @@
 # Super Luigi Land Wii Special
+
+Changes that have been made so far for Special:
+
+- Wind can have multiple colors
+- Lava particles can have multiple colors
+- Power-ups (including Propeller Mushroom) move to the left
+- The direction coins spin in is reversed
+- Piranha Plants can have multiple colors
+
 ## Source Code Public Release
 
 This is the source code of the Super Luigi Land Wii Special mod.
