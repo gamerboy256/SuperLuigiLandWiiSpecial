@@ -4,9 +4,10 @@ Changes that have been made so far for Special:
 
 - Wind can have multiple colors
 - Lava particles can have multiple colors
-- Power-ups (including Propeller Mushroom) move to the left
-- The direction coins spin in is reversed
 - Piranha Plants can have multiple colors
+- The direction coins spin in is reversed
+- Power-ups (including Propeller Mushroom) move to the left
+- "World" on level preview screen changed to "Special" in all languages
 
 ## Source Code Public Release
 
