@@ -91,31 +91,31 @@ void LoadPregameStyleNameAndNumber(m2d::EmbedLayout_c *layout) {
 		LevelName->SetString(convLevelName);
 
 		wchar_t levelNumber[32];
-		if(GetGameLanguage(4) == 0) { // Japanese (by ?)
+		if(GetGameLanguage(4) == 0) { // Japanese (by ?) (NEEDS REPLACING)
 			wcscpy(levelNumber, L"ワールド ");
 			getNewerLevelNumberString(level->displayWorld, level->displayLevel, &levelNumber[5]);
 		}
 		if(GetGameLanguage(4) == 1) { // English
-			wcscpy(levelNumber, L"World ");
+			wcscpy(levelNumber, L"Special ");
 			getNewerLevelNumberString(level->displayWorld, level->displayLevel, &levelNumber[6]);
 		}
-		if(GetGameLanguage(4) == 2) { // German
-			wcscpy(levelNumber, L"Welt ");
+		if(GetGameLanguage(4) == 2) { // German (by Error.)
+			wcscpy(levelNumber, L"Spezial ");
 			getNewerLevelNumberString(level->displayWorld, level->displayLevel, &levelNumber[5]);
 		}
-		if(GetGameLanguage(4) == 3) { // French
+		if(GetGameLanguage(4) == 3) { // French (NEEDS REPLACING)
 			wcscpy(levelNumber, L"Monde ");
 			getNewerLevelNumberString(level->displayWorld, level->displayLevel, &levelNumber[6]);
 		}
-		if(GetGameLanguage(4) == 4) { // Spanish
+		if(GetGameLanguage(4) == 4) { // Spanish (NEEDS REPLACING)
 			wcscpy(levelNumber, L"Mundo ");
 			getNewerLevelNumberString(level->displayWorld, level->displayLevel, &levelNumber[6]);
 		}
-		if(GetGameLanguage(4) == 5) { // Italian
+		if(GetGameLanguage(4) == 5) { // Italian (NEEDS REPLACING)
 			wcscpy(levelNumber, L"Mondo ");
 			getNewerLevelNumberString(level->displayWorld, level->displayLevel, &levelNumber[6]);
 		}
-		if(GetGameLanguage(4) == 6) { // Dutch
+		if(GetGameLanguage(4) == 6) { // Dutch (NEEDS REPLACING)
 			wcscpy(levelNumber, L"Wereld ");
 			getNewerLevelNumberString(level->displayWorld, level->displayLevel, &levelNumber[7]);
 		}
