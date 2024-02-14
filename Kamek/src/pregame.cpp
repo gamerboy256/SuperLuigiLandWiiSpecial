@@ -93,31 +93,31 @@ void LoadPregameStyleNameAndNumber(m2d::EmbedLayout_c *layout) {
 		wchar_t levelNumber[32];
 		if(GetGameLanguage(4) == 0) { // Japanese
 			wcscpy(levelNumber, L"スペシャル ");
-			getNewerLevelNumberString(level->displayWorld, level->displayLevel, &levelNumber[5]);
+			getNewerLevelNumberString(level->displayWorld, level->displayLevel, &levelNumber[6]);
 		}
 		if(GetGameLanguage(4) == 1) { // English
 			wcscpy(levelNumber, L"Special ");
-			getNewerLevelNumberString(level->displayWorld, level->displayLevel, &levelNumber[6]);
+			getNewerLevelNumberString(level->displayWorld, level->displayLevel, &levelNumber[8]);
 		}
 		if(GetGameLanguage(4) == 2) { // German (by Error.)
 			wcscpy(levelNumber, L"Spezial ");
-			getNewerLevelNumberString(level->displayWorld, level->displayLevel, &levelNumber[5]);
+			getNewerLevelNumberString(level->displayWorld, level->displayLevel, &levelNumber[8]);
 		}
 		if(GetGameLanguage(4) == 3) { // French
 			wcscpy(levelNumber, L"Spécial ");
-			getNewerLevelNumberString(level->displayWorld, level->displayLevel, &levelNumber[6]);
+			getNewerLevelNumberString(level->displayWorld, level->displayLevel, &levelNumber[8]);
 		}
 		if(GetGameLanguage(4) == 4) { // Spanish
 			wcscpy(levelNumber, L"Especial ");
-			getNewerLevelNumberString(level->displayWorld, level->displayLevel, &levelNumber[6]);
+			getNewerLevelNumberString(level->displayWorld, level->displayLevel, &levelNumber[9]);
 		}
 		if(GetGameLanguage(4) == 5) { // Italian (by CoinKillerL)
 			wcscpy(levelNumber, L"Speciale ");
-			getNewerLevelNumberString(level->displayWorld, level->displayLevel, &levelNumber[6]);
+			getNewerLevelNumberString(level->displayWorld, level->displayLevel, &levelNumber[9]);
 		}
 		if(GetGameLanguage(4) == 6) { // Dutch (by HarmPieDarmpie)
 			wcscpy(levelNumber, L"Speciaal ");
-			getNewerLevelNumberString(level->displayWorld, level->displayLevel, &levelNumber[7]);
+			getNewerLevelNumberString(level->displayWorld, level->displayLevel, &levelNumber[9]);
 		}
 
 		LevelNum->SetString(levelNumber);
