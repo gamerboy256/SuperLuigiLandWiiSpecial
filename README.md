@@ -7,7 +7,7 @@ Changes that have been made so far for Special:
 - Piranha Plants can have multiple colors
 - The direction coins spin in is reversed
 - Power-ups (including Propeller Mushroom) move to the left
-- "World" on level preview screen changed to "Special" in all languages
+- "World" on level preview screen and pause menu changed to "Special" in all languages
 
 ## Source Code Public Release
 
