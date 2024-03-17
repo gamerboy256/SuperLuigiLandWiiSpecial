@@ -75,5 +75,6 @@ modules:
   - processed/singAlong.yaml
   - processed/pumpkinGoomba.yaml
   - processed/whiteWind.yaml
+  - processed/luigi_physics.yaml
   # - processed/pengi.yaml
 #  - processed/actorlog.yaml
