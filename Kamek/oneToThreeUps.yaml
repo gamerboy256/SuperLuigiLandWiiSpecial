@@ -1,0 +1,8 @@
+--- # By Synel
+source_files: [../src/oneToThreeUps.cpp]
+hooks:
+  - name: replaceOneToThreeUps
+    type: branch_insn
+    src_addr_pal: 0x80a283b0
+    branch_type: bl
+    target_func: 'replaceOneToThreeUps(dScoreMng_c*, unsigned int, int, int)'
