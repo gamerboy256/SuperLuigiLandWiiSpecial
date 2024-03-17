@@ -76,5 +76,6 @@ modules:
   - processed/pumpkinGoomba.yaml
   - processed/whiteWind.yaml
   - processed/luigi_physics.yaml
+  - processed/oneToThreeUps.yaml
   # - processed/pengi.yaml
 #  - processed/actorlog.yaml

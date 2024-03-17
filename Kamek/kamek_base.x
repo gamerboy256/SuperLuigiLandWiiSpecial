@@ -1933,6 +1933,11 @@ SECTIONS {
 	startSound__10daPlBase_cFii = 0x80057e70;
 	isStar__7dAcPy_cCFv = 0x80022170;
 
+	LivesArray = 0x80355190;
+    	CharIDArray = 0x80355160;
+    	MaxLives = 0x80427c00;
+    	daEnItem_cOneUp = 0x800e25a0;
+
 
 	.text : {
 		FILL (0)
