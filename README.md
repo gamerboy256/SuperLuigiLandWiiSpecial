@@ -3,11 +3,12 @@
 Changes that have been made so far for Special:
 
 - Luigi physics match the physics from New Super Luigi U
+- Power-ups (including the Propeller Mushroom) move to the left (though power-ups that "jump" out of ? Blocks move differently now for some reason, should be fixed if possible)
+- 3-Up Moons (which replace 1-Up Mushrooms) give three lives to the player instead of one
 - Wind can have multiple colors
 - Lava particles can have multiple colors
 - Piranha Plants can have multiple colors
 - The direction coins spin in is reversed
-- Power-ups (including Propeller Mushroom) move to the left (power-ups that "jump" out of ? Blocks are different now for some reason)
 - "World" on level preview screen and pause menu changed to "Special" in all languages
 
 ## Source Code Public Release
