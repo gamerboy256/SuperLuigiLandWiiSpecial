@@ -383,3 +383,9 @@ hooks:
     branch_type: bl
     src_addr_pal: 0x80816370
     target_func: 'JrFloorFireHax'
+
+  - name: PermanentFrontFog
+    type: patch
+    addr_pal: 0x800eb354
+    data: '48000018'
+    
