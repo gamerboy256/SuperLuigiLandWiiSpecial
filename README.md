@@ -10,6 +10,7 @@ Changes that have been made so far for Special:
 - Piranha Plants can have multiple colors
 - The direction coins spin in is reversed
 - "World" on level preview screen and pause menu changed to "Special" in all languages
+- Liquid fog now appears over Layer 0
 
 ## Source Code Public Release
 
