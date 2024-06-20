@@ -11,6 +11,7 @@ Changes that have been made so far for Special:
 - The direction coins spin in is reversed
 - "World" on level preview screen and pause menu changed to "Special" in all languages
 - Liquid fog now appears over Layer 0
+- Names for some music files have changed (more changes to make in the future)
 
 ## Source Code Public Release
 
